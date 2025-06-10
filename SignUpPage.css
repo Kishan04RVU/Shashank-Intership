@@ -1,0 +1,29 @@
+.signup-page {
+  display: flex;
+  height: 100vh;
+}
+
+.left-panel {
+  flex: 1;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-panel img {
+  max-width: 90%;
+  height: auto;
+}
+
+.right-panel {
+  background-color: #146e41;
+  color: white;
+  padding: 50px; /* adjust padding as needed */
+  text-align: center; /* center text horizontally */
+  /* To center content vertically without flex, 
+     you may need to set a fixed height and use line-height or padding */
+  height: 100%; /* or a fixed height like 300px */
+  box-sizing: border-box;
+}
+
